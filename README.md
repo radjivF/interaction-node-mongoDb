@@ -7,6 +7,13 @@ Every files can work independant.
 
 Don't forget to install the package:
 
+In the lib folder you have separate example to show: how to use the each functions of mongoDb.
+In the lib coffee script folder you have separate example to show: how to use the each functions of mongoDb but with coffeescript syntax.
+
+You have a Rest Api example in the folder RestAPiExample, this is a global example how to use MongoDb in a real case. 
+And of course the same Api with coffee Script syntax.
+
+you can use curl to test the REST Api example.
 
 
 What is MongoDB?
