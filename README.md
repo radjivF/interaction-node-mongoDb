@@ -5,7 +5,10 @@ This some interaction example how to use mongoDb with Nodejs.
 
 Every files can work independant.
 
-Don't forget to install the package:
+Don't forget to install the package for the REST Api:
+```
+npm install
+```
 
 In the lib folder you have separate example to show: how to use the each functions of mongoDb.
 In the lib coffee script folder you have separate example to show: how to use the each functions of mongoDb but with coffeescript syntax.
