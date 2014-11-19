@@ -16,8 +16,6 @@ In the lib coffee script folder you have separate example to show: how to use th
 You have a Rest Api example in the folder RestAPiExample, this is a global example how to use MongoDb in a real case. 
 And of course the same Api with coffee Script syntax.
 
-you can use curl to test the REST Api example.
-
 
 What is MongoDB?
 ================
@@ -48,3 +46,36 @@ Data center aware
 Best used: If you need dynamic queries. If you prefer to define indexes, not map/reduce functions. If you need good performance on a big DB. If you wanted CouchDB, but your data changes too much, filling up disks.
 
 For example: For most things that you would do with MySQL or PostgreSQL, but having predefined columns really holds you back.
+
+Testing the API using cURL
+==========================
+
+If you want to test your API before using it in a client application, you can invoke your REST services straight from a browser address bar. For example, you could try:
+```
+http://localhost:3000/unicorns
+```
+You will only be able to test your GET services that way. A more versatile solution to test RESTful services is to use cURL, a command line utility for transferring data with URL syntax.
+
+For example, using cURL, you can test the Wine Cellar API with the following commands:
+
+Get all unicorns:
+```
+curl -i -X GET http://localhost:3000/unicorns
+```
+Get unicorn with _id value of 5069b47aa892630aae000007 (use a value that exists in your database):
+
+```
+curl -i -X GET http://localhost:3000/unicorns/5069b47aa892630aae000007
+```
+Delete unicorn with _id value of 5069b47aa892630aae000007:
+```
+curl -i -X DELETE http://localhost:3000/unicorns/5069b47aa892630aae000007
+```
+Add a new unicorn:
+```
+curl -i -X POST -H 'Content-Type: application/json' -d '{"name": "charlie", "status": "happy"}' http://localhost:3000/unicorns
+```
+Modify unicorn with _id value of 5069b47aa892630aae000007:
+```
+curl -i -X PUT -H 'Content-Type: application/json' -d '{"name": "charlie", "status": "happy"}' http://localhost:3000/unicorns/5069b47aa892630aae000007
+```
