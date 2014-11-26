@@ -1,9 +1,10 @@
 {
-    "name": "wine-cellar",
-    "description": "Wine Cellar Application",
-    "version": "0.0.1",
+    "name": "UnicornAPI",
+    "description": "Unicorns REST API",
+    "version": "0.1.1",
     "private": true,
     "dependencies": {
-        "express": "3.x"
+      "express": "~4.9.0",
+      "mongodb":"~1.4.19"
     }
 }
