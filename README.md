@@ -1,9 +1,11 @@
 Interaction MongoDB (2.2) with Node.js
 ======================================
 
-This some interaction example how to use mongoDb with Nodejs.
+In lib folder you have different files with interaction example how to use MongoDb with Nodejs.
 
 Every files can work independant.
+
+In Rest Api folder you have an example in a real case.
 
 Don't forget to install the package for the REST Api:
 ```
@@ -13,7 +15,7 @@ npm install
 In the lib folder you have separate example to show: how to use the each functions of mongoDb.
 In the lib coffee script folder you have separate example to show: how to use the each functions of mongoDb but with coffeescript syntax.
 
-You have a Rest Api example in the folder RestAPiExample, this is a global example how to use MongoDb in a real case. 
+You have a Rest Api example in the folder RestAPiExample, this is a global example how to use MongoDb in a real case.
 And of course the same Api with coffee Script syntax.
 
 
