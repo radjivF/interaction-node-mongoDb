@@ -81,3 +81,11 @@ Modify unicorn with _id value of 5069b47aa892630aae000007:
 ```
 curl -i -X PUT -H 'Content-Type: application/json' -d '{"name": "charlie", "status": "happy"}' http://localhost:3000/unicorns/5069b47aa892630aae000007
 ```
+
+Licence
+=======
+MIT License. See LICENSE for details.
+
+Copyright 
+=========
+It's just example for tutorial so no copyright, use it like you want.
