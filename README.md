@@ -88,4 +88,4 @@ MIT License. See LICENSE for details.
 
 Copyright 
 =========
-It's just example for tutorial so no copyright, use it like you want.
+It's just example as tutorial, so no copyright, use it like you want.
