@@ -1,4 +1,4 @@
-Interaction MongoDB (2.2) with Node.js
+Interaction MongoDB with Node.js
 ======================================
 
 In lib folder you have different files with interaction example how to use MongoDb with Nodejs.
